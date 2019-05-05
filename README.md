@@ -17,8 +17,8 @@ You can read the necessary setup for test and prod [here](https://github.com/tea
 ### Steps for deploying
 Follow this steps in order to deploy the app inside the Daf environment: 
 
-1. change <daf-skeleton-html> with your app name **<YOUR-APP-NAME>** inside daf-skeleton.yml file
-2. sudo docker build --no-cache -t nexus.teamdigitale.test/<YOUR-APP-NAME>:1.0.0 .
-3. sudo docker push nexus.teamdigitale.test/<YOUR-APP-NAME>:1.0.0
+1. change <daf-skeleton-html> with your app name YOUR-APP-NAMEinside daf-skeleton.yml file
+2. sudo docker build --no-cache -t nexus.teamdigitale.test/YOUR-APP-NAME:1.0.0 .
+3. sudo docker push nexus.teamdigitale.test/YOUR-APP-NAME:1.0.0
 4. kubectl delete -f kubernetes/test/daf-skeleton.yml (not the first time!!!)
 5. kubectl create -f kubernetes/test/daf-skeleton.yml
