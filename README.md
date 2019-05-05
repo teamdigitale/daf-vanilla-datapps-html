@@ -1,3 +1,5 @@
+# PDND STATIC VANILLA HTML PAGE
+
 This is the skeleton for build and deploy static html application inside PDND project
 
 You can integrate your code editing index.html component. After modyfing index.html you 
